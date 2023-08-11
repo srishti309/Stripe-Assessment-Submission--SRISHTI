@@ -1,0 +1,76 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #0338d7;
+    height: 100%;
+    width: 100%
+}
+.container {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    padding: 20px;
+    height: 100%;
+    width: 100%  
+}
+.ABC{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.ABC #XYZ{
+    color: blue;
+}
+h2 {
+    font-size: 15px;
+}
+h2 p button{
+    color: rgb(255, 69, 69);
+    background: rgb(239, 245, 246);
+    border: none;
+}
+.subscription-plan {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    font-size: small;
+    text-align:left;
+}
+button{
+    color: blue;
+    border-color: blue;
+    background-color: rgb(255, 255, 255);
+    border-width: 1px;
+    border-radius: 3px;
+}
+.plan-card {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    padding: 20px;
+    margin: 10px;
+    width: 500px;
+    text-align: left;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    height: 250px;
+}
+#Unique-para{
+    font-weight: bolder;
+    font-size:x-large
+}
+#Special-para{
+         font-size: xx-small;
+}
+#Different-para{
+    background-color: #e9e7e7;
+}
+
+.plan-card:hover {
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+p {
+    margin-bottom: 5px; /* Adjust this value to decrease the space */
+}

@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    height: 100%;
+    width: 100%;
+
+}
+.subContainer{
+    background-color: rgba(231, 234, 237, 0.874);
+    width: 55%;
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    padding: 20px;;
+    
+}
+.left{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    gap: 40px;
+    margin-top: 30px;
+}
+.right_yearly{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 40px;
+    margin-top: 30px;
+}
+.right_monthly{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 40px;
+    margin-top: 30px;
+    display: none;
+}
+.monthly_yearly{
+    background-color: rgb(74, 74, 236);
+    width: 130px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 6px;
+    border-radius: 20px;
+    margin-top: 25px;
+    padding: 15px;
+    margin-bottom: 60px;
+    cursor: pointer;
+}
+#monthly{
+    background-color: rgb(74, 74, 236);
+    border-radius: 10px;
+    border-color: #00000000;
+    padding: 4px;
+    cursor: pointer;
+}
+#yearly{
+    background-color: aliceblue;
+    border-radius: 10px;
+    border-color: #00000000;
+    padding: 4px;
+    cursor: pointer;
+}
+
+/* for boxes */
+#mobile{
+    background-color: rgba(164, 164, 167, 0.863);
+    width: 80px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+#basic{
+    background-color: rgba(164, 164, 167, 0.863);
+    width: 80px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+#standard{
+    background-color: rgba(164, 164, 167, 0.863);
+    width: 80px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+#premium{
+    background-color: rgba(164, 164, 167, 0.863);
+    width: 80px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.chotuContainer{
+    display: flex;
+    flex-direction: column;
+    gap: 43px;
+    margin-top: 75px;
+}
+button{
+    width: 80px;
+    height: 30px;
+    font-size: large;
+    background-color: rgba(0, 0, 255, 0.622);
+}
